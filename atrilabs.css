@@ -6,6 +6,18 @@
 body{
     font-family: Plusjakartadisplay, sans-serif;
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(10px);
+    opacity: 0.3;
+    transition: all 1s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 #dott{
     display: inline;
     padding-right: 5px;
